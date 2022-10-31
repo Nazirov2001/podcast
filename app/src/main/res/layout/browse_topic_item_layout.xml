@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="145dp"
+    android:layout_marginBottom="24dp">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/topicCover"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:riv_corner_radius_bottom_left="24dp"
+        app:riv_corner_radius_top_left="24dp"
+        app:riv_corner_radius_top_right="24dp"
+        tools:src="@drawable/topic_1" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_podcast_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="24dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="41dp"
+            android:lines="2"
+            android:maxLines="2"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            tools:text="Positive psychology and our motivations" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="32dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/authors1" />
+
+            <TextView
+                android:id="@+id/tvAuthors"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:textColor="@color/textColor"
+                android:textSize="14sp"
+                tools:text="Authors: 124" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/podcasts1" />
+
+            <TextView
+                android:id="@+id/tvPodcasts"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:textColor="@color/textColor"
+                android:textSize="14sp"
+                tools:text="Podcasts: 7 286" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</FrameLayout>

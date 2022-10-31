@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/browse"
+        android:icon="@drawable/browse"
+        android:title="@string/browse" />
+
+    <item
+        android:id="@+id/subscribed"
+        android:icon="@drawable/subscribed"
+        android:title="@string/subscribed" />
+
+    <item
+        android:id="@+id/favourites"
+        android:icon="@drawable/favourites"
+        android:title="@string/favourites" />
+
+    <item
+        android:id="@+id/history"
+        android:title="@string/history"
+        android:icon="@drawable/history"/>
+
+    <item
+        android:id="@+id/payments"
+        android:title="@string/payments"
+        android:icon="@drawable/payments"/>
+
+    <item
+        android:id="@+id/accountSettings"
+        android:title="@string/account_settings"
+        android:icon="@drawable/settings"/>
+
+</menu>

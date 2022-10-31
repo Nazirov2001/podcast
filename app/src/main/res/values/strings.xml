@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Podcast</string>
+    <string name="episodic_series_of_digital_audio">Episodic Series of digital audio</string>
+    <string name="e_mail_address">E-mail address</string>
+    <string name="login">Login</string>
+    <string name="forgot_password"><u>Forgot password?</u></string>
+    <string name="login_with_facebook">Login with Facebook</string>
+    <string name="register_new_account">Register new account</string>
+    <string name="password">Password</string>
+    <string name="listen_podcasts">Listen podcasts</string>
+    <string name="recent">Recent</string>
+    <string name="podcasts_author">Podcasts Author</string>
+    <string name="browse">Browse</string>
+    <string name="subscribed">Subscribed</string>
+    <string name="favourites">Favourites</string>
+    <string name="history">History</string>
+    <string name="payments">Payments</string>
+    <string name="account_settings">Account settings</string>
+    <string name="listened_time">Listened time:</string>
+    <string name="playlists">Playlists</string>
+    <string name="following">Following</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="new_lable">New</string>
+    <string name="the_big_oxmox_advised_her_not_to_do_so_because_there_were_thousands_of_bad_commas_wild_question_marks_and_devious_semikoli_but_the_little_blind_text_didn_t_listen">The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen</string>
+</resources>
